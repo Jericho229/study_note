@@ -1,7 +1,9 @@
 # Git 101
 
 > date: 2017.06.04
+
 > author: R1x
+
 > version: 0.1.0
 
 ### 什麼是Git??
@@ -45,20 +47,19 @@ drwxr-xr-x   4 rex  staff   136 Jun  3 22:55 第一次用git就上手_04
 
 ### 基本流程
 
-
-名稱         | 用途           | 指令 |
---------------------|------------------|-----------------------|
-1.建立/切換 專案目錄 |    | mkdir "project name" <br> cd "project name" |
-2. 同步資料      | 複製專案 or 下載分支 | git clone "https://github.com/Jericho229/study_note" <br> "git pull https://github.com/Jericho229/study_note"   |
-3. 切換分支 branch  | 切換到自己的分支    | git checkout -b "your branch name" |
-4. ---編輯A.html---    | coding ||
-4. ---編輯B.css---    | coding ||
-4. ---編輯C.js---    | coding ||
-5. 檢視狀態  | 查看檔案目錄目前的狀態    | git stauts |
-6. 新增檔案  | 將修改的檔案加入編輯名單    | git add "single file" (加入單檔) <br> git add . (全部加進去) |
-7. 編輯異動描述 | 簡單敘述你新增/修改了什麼    | git commit -m "change log" |
-8. 提交檔案 | 將修改的內容送上伺服器    | git push origin<br> git push origin "remote branch"|
-9. ---再次編輯A.html---    | 繼續coding <br> 重複步驟5~8 ||
+|名稱         | 用途           | 指令 |
+|--------------------|------------------|-----------------------|
+|1.建立/切換 專案目錄  | ... | mkdir "project name" <br> cd "project name" |
+|2. 同步資料      | 複製專案 or 下載分支 | git clone "https://github.com/Jericho229/study_note" <br> "git pull https://github.com/Jericho229/study_note"   |
+|3. 切換分支 branch  | 切換到自己的分支    | git checkout -b "your branch name" |
+|4. ---編輯A.html---    | coding ||
+|4. ---編輯B.css---    | coding ||
+|4. ---編輯C.js---    | coding ||
+|5. 檢視狀態  | 查看檔案目錄目前的狀態    | git stauts |
+|6. 新增檔案  | 將修改的檔案加入編輯名單    | git add "single file" (加入單檔) <br> git add . (全部加進去) |
+|7. 編輯異動描述 | 簡單敘述你新增/修改了什麼    | git commit -m "change log" |
+|8. 提交檔案 | 將修改的內容送上伺服器    | git push origin<br> git push origin "remote branch"|
+|9. ---再次編輯A.html---    | 繼續coding <br> 重複步驟5~8 ||
 
 
 ### 初次設定
@@ -151,7 +152,7 @@ git rm "filename"
 ```
 
 
-###Git 分支合併
+### Git 分支合併
 
 將branch分支合併到當前分支
 
@@ -167,7 +168,7 @@ git reset < file > #將單檔從暫存區恢復到工作文件
 git reset -- . #從暫存區恢復到工作文件
 ```
 
-#### Git 檢查設定
+### Git 檢查設定
 
 $ git config --list
 
