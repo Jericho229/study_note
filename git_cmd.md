@@ -58,7 +58,7 @@ drwxr-xr-x   4 rex  staff   136 Jun  3 22:55 第一次用git就上手_04
 |5. 檢視狀態  | 查看檔案目錄目前的狀態    | git stauts |
 |6. 新增檔案  | 將修改的檔案加入編輯名單    | git add "single file" (加入單檔) <br> git add . (全部加進去) |
 |7. 編輯異動描述 | 簡單敘述你新增/修改了什麼    | git commit -m "change log" |
-|8. 提交檔案 | 將修改的內容送上伺服器    | git push origin<br> git push origin "remote branch"|
+|8. 提交檔案 | 將修改的內容送上伺服器    | git push origin "remote branch"|
 |9. ---再次編輯A.html---    | 繼續coding <br> 重複步驟5~8 ||
 
 
