@@ -1,9 +1,9 @@
 # Git 101
 
 > date: 2017.06.04
-
+>
 > author: R1x
-
+>
 > version: 0.1.0
 
 ### 什麼是Git??
@@ -106,7 +106,6 @@ git branch -m "name" # 更改名稱
 ```
 git checkout "other branch" # 切換到該分支
 git checkout -b "other branch" # 新增並切換到該分支
-
 ```
 
 ### 更新分支目錄
